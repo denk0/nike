@@ -24,6 +24,13 @@
 	margin: 0 auto;
 }
 
+.ba-left {
+	float: left;
+}
+.ba-right {
+	float: right;
+}
+
 
 .ba-product-card {
 	font-family: Roboto, sans-serif;
@@ -136,6 +143,29 @@
   transition: bottom 300ms cubic-bezier(0.23, 1, 0.32, 1), transform 300ms 300ms cubic-bezier(0.23, 1, 0.32, 1);
 }
 
+
+/* styles for main part */
+.ba-product {
+	background-color: #FFF;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+.ba-product__gallery {
+	width: 66.66666%;
+	background-color: #f3f3f3;
+	cursor: crosshair;
+}
+.ba-product__info {
+	width: 33.333333%;
+}
+
+.ba-close {
+	position: absolute;
+	top: 10px;
+	right: 10px;
+}
 
 
 
